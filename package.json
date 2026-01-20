@@ -1,0 +1,33 @@
+{
+  "name": "playwrightts",
+  "version": "1.0.0",
+  "description": "A Playwright TypeScript framework for UI automation testing with accessibility and utility features",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "ui-test": "npx playwright test --config=./config/ui.playwright.config.ts",
+    "show-report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "automation", "testing", "accessibility"],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "axe-html-reporter": "^2.2.11",
+    "axe-playwright": "^2.2.2",
+    "csv-parse": "^6.1.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "dotenv": "^17.2.3",
+    "path": "^0.12.7",
+    "winston": "^3.18.3"
+  }
+}

@@ -10,7 +10,7 @@ export default defineConfig({
   retries: process.env.RETRIES?Number.parseInt(process.env.RETRIES):undefined,
   workers:process.env.PARALLELMODE?Number.parseInt(process.env.PARALLELMODE):undefined,
   timeout:process.env.TESTTIMEOUT?Number.parseInt(process.env.TESTTIMEOUT) * timeOut:undefined,
-  reporter: 'html',
+  reporter: [['html',{outputDir:"./playwright-report"}], ['../utilities/Listeners/testListener.ts']],
   use: {
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
