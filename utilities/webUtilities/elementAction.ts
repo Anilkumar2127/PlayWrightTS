@@ -1,5 +1,5 @@
 import { Locator, Page, test } from "@playwright/test";
-import { logger } from "../logutilities/logger";
+import { logger } from "../Logutilities/Logger";
 import { log } from "console";
 
 export class WebElementAction {

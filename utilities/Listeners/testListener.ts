@@ -1,5 +1,5 @@
 import { FullConfig, Reporter, Suite, TestCase, TestResult, TestStep } from "@playwright/test/reporter";
-import { logger } from "../logutilities/logger";
+import { logger } from "../Logutilities/Logger";
 import { Page } from "@playwright/test";
 
 

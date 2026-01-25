@@ -3,7 +3,7 @@ import { Page } from 'playwright';
 import { test } from '@playwright/test';
 import { createHtmlReport } from "axe-html-reporter";
 import AxeBuilder from '@axe-core/playwright';
-import { logger } from '../logutilities/logger';
+import { logger } from '../Logutilities/Logger';
 
 export class AxeUtilites {
   public page: Page;

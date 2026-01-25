@@ -1,9 +1,6 @@
 
 import { Locator,Page,test } from "@playwright/test";
-import { AxeUtilites } from "../utilities/axeutilities.ts/axe";
-import { logger } from "../utilities/logutilities/logger";
-import { WebElementAction } from "../utilities/webUtilities/elementAction";
-import { BasePage } from "../pages/BasePage";
+import { BasePage } from "./BasePage";
 
 export class LoginPage extends BasePage{
 

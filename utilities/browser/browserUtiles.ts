@@ -1,7 +1,7 @@
 
 import { Page,test } from "@playwright/test";
 
-export class browserUtiles {
+export class BrowserUtiles {
     private readonly page:Page;
 
     constructor(page:Page) {    

@@ -1,6 +1,6 @@
 
-import { records } from '../utilities/datautilities/csv';
-import {test} from '../CustomWorld/fixturesExample';
+import { records } from '../utilities/Datautilities/CSV'
+import {test} from '../customworld/fixturesExample';
 
 
 test.beforeEach(async ({ loginPage }) => {

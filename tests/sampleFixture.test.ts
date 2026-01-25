@@ -1,7 +1,7 @@
-import { log } from 'console';
-import { test } from '../CustomWorld/fixturesExample';
+
+import { test } from '../customworld/fixturesExample';
 import credentials from '../test-data/credentials.json';
-import { records } from '../utilities/datautilities/csv';
+
 
 test.beforeEach(async ({ loginPage }) => {
     await loginPage.launchUrl();
